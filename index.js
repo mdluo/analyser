@@ -12,7 +12,7 @@ var pcm = require('pcm-util');
 var fft = require('ndarray-fft');
 var ndarray = require('ndarray');
 var db = require('decibels/from-gain');
-var blackman = require('scijs-window-functions/blackman');
+var blackman = require('window-function/blackman');
 
 
 /**
